@@ -55,7 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="RelayCommand.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -65,7 +64,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Block.cs" />
-    <Compile Include="MainViewModel.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -100,10 +98,6 @@
   <ItemGroup>
     <Resource Include="assets\2048.ico" />
     <Resource Include="assets\2048.png" />
-    <Resource Include="assets\cancel.png" />
-    <Resource Include="assets\menu.png" />
-    <Resource Include="assets\repeat.png" />
-    <Resource Include="assets\screenshot.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
